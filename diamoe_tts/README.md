@@ -34,7 +34,7 @@ bash ./src/f5_tts/infer/batch_infer.sh
 ```
 ### ⚠️ Note
 Please be aware of the following:
-- Before doing inference, the IPA frontend in testset and reference should be: [IPA1] [IPA2], 
+- Before doing inference, the IPA frontend in testset and reference should be: [IPA1-phoneme1] [IPA1-phoneme2] [IPA2-phoneme1] [IPA2-phoneme2] [IPA2-phoneme3], 
 rather than IPA1 | IPA2
 - e.g. 
 '[t͡ʂ] [ˈuᴴᴹ] [ɻ] [ˈəᴴᴸ] [n] [n] [ˈiᴴᴹ] [h] [ˈɑᴴᴹ] [ʊ̯] ，' is correct, while 
